@@ -137,7 +137,7 @@ function s:MonotoneColors(color, secondary_hue_offset, emphasize_comments, empha
 	call s:Hi('LineNr', s:color_bright_0, 'NONE', 240, 'NONE', 'NONE')
 	call s:Hi('VertSplit', s:color_bright_0, 'NONE', 240, 'NONE', 'NONE')
 	call s:Hi('WildMenu', s:color_dark_3, s:color_normal, 16, 248, 'NONE')
-	hi SpecialKey    guifg=NONE     guibg=NONE     gui=bold    ctermfg=NONE  ctermbg=NONE  cterm=bold
+	hi SpecialKey    guifg=NONE     guibg=NONE     gui=bold    ctermfg=236  ctermbg=NONE  cterm=bold
 	hi clear         FoldColumn
 	hi clear         SignColumn
 
