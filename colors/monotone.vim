@@ -35,7 +35,7 @@ if !exists('g:monotone_emphasize_comments')
 	let g:monotone_emphasize_comments = 0
 endif
 if !exists('g:monotone_emphasize_whitespace')
-	let g:monotone_emphasize_whitespace = 1
+	let g:monotone_emphasize_whitespace = 0
 endif
 if !exists('g:monotone_contrast_factor')
 	let g:monotone_contrast_factor = 1
